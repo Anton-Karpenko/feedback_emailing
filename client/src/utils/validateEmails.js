@@ -5,7 +5,7 @@ export default emails => {
     .split(',')
     .map(email => email.trim())
     .filter(email => re.test(email) === false);
-    
+
   if (invalidEmails[invalidEmails.length - 1] === '') invalidEmails.pop();
 
   if (invalidEmails.length) {

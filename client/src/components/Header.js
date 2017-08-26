@@ -30,7 +30,7 @@ class Header extends Component {
     console.log(this.props)
     return (
       <nav>
-        <div className="nav-wrapper">
+        <div className="nav-wrapper light-blue darken-4">
           <Link
             to={this.props.auth ? '/surveys': '/'}
             className="left brand-logo">
